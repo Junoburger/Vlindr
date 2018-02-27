@@ -1,0 +1,737 @@
+body{
+ // background-color: #DED0A3; /* For browsers that do not support gradients */
+background-image: url('/images/BG_BODY.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+overflow-x: hidden;
+}
+
+
+.navbar-inverse{
+  background-image: url("/images/hero_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 40px!important;
+  padding: 70px 10px 5px 1px;
+  position: relative;
+  border: none !important;
+}
+
+.navbar-brand {
+ padding: 50px 50px !important;
+ float: none !important;
+  left:40%;
+  top: -25px;
+  position: absolute !important;
+}
+
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  text-decoration: none;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-inverse > .container .navbar-brand,
+  .navbar-inverse > .container-fluid .navbar-brand {
+    margin-left: -15px;
+ padding: 10px 0px !important;
+  left:15%;
+  top: 25px;
+
+  }
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 0px !important;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.new-footer{
+  position: relative;
+ // float: left;
+  left: 400px !important;
+  padding: 70px 10px 5px 1px;
+
+  top: -10rem !important;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  list-style: none;
+  display: inline-block;
+
+}
+
+
+.navbar-nav {
+  margin: 25px 5px !important;
+}
+
+.container > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-header,
+.container-fluid > .navbar-collapse {
+  margin-right: 15px !important;
+  margin-left: -75px !important;
+}
+
+@media (max-width: 767px) {
+
+.container > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-header,
+.container-fluid > .navbar-collapse {
+  margin-right: 15px !important;
+  margin-left: -25px !important;
+}
+.navbar-nav {
+  margin: 0px 10px !important;
+}
+
+
+}
+
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-image: url('/images/log-in-box.png') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 10px 10px 1px grey;
+}
+
+.btn-primary{
+
+    font-size:22pt;
+    font-weight: bold;
+}
+.btn-primary:hover{
+  background-color: #23ACFF !important;
+    font-size:22pt;
+    font-weight: bold;
+}
+
+.btn-lid {
+  color: #fff !important;
+  background-color: #2ab27b !important;
+  border-color: #259d6d !important;
+  font-weight: bold;
+  font-size:22pt;
+}
+
+.btn-lid:focus,
+.btn-lid.focus {
+  color: #fff;
+  background-color: #20895e;
+  border-color: #0d3625;
+}
+
+.btn-lid:hover {
+  color: #fff;
+  background-color: #47E85F !important;
+  border-color: #196c4b;
+}
+
+
+
+
+ .navbar-nav > li > a {
+  color: #fff !important;
+  font-size: 12pt;
+ font-weight: bold;
+}
+
+
+
+.navbar-nav > li > a:hover,
+ .navbar-nav > li > a:focus
+  {
+  color: #fff !important;
+  background-color: rgba(240, 224, 198, 0.4) !important;//or ? rgba(165, 26, 22, 0.6) ?
+  border-radius: 10px;
+}
+ .navbar-nav > li > a:active
+  {
+  color: #fff !important;
+  background-color: rgba(239, 144, 130, 0.40) !important;//or ? rgba(165, 26, 22, 0.6) ?
+  border-radius: 10px;
+}
+
+.logo {
+width: 270px;
+position: relative;
+top: -45px;
+left: -30px;
+float:left;
+filter: blur(0.2px);
+filter: brightness(110%);
+
+}
+
+
+.logo:hover {
+width: 270px;
+position: relative;
+top: -45px;
+left: -30px;
+float:left;
+filter: brightness(125%);
+}
+
+.welcome{
+
+text-align: center;
+
+
+}
+#welcome{
+    width: 1175px;
+    height: 500px;
+    position: relative;
+    top:-20px;
+    border-radius: 40%;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+@media (max-width: 767px) {
+.welcome{display: none}}
+
+.profile{
+position: relative;
+left: 100px;
+top:  100px;
+
+}
+
+@media (max-width: 787px) {
+.profile{
+position: relative;
+left:-120px;
+top:80px;
+
+}}
+
+
+.edit-profile{
+  position:relative;
+  top:165px;left:-204px;
+}
+
+@media (max-width: 787px) {
+
+  .edit-profile{
+    position:relative;
+    top:120px;left:-20px;
+  }
+
+}
+
+.profile-image{
+
+    width:250px;
+     height:250px;
+     float:left;
+      border-radius:25px;
+      border: white solid 2px;
+       margin-left:-110px;
+        margin-top:-70px;
+        z-index: 1;
+        box-shadow:0px 15px 10px 0px grey;
+}
+
+
+@media (max-width: 787px) {
+    .profile-image{
+margin-left:120px;
+margin-top:-20px; }
+
+
+}
+
+.user-pro{
+
+left:380px;
+position:relative;
+
+
+}
+
+@media (max-width: 787px) {
+.user-pro{
+
+left:80px;
+position:relative;
+
+
+}
+
+}
+
+
+.chat{
+
+width: 50px;
+height:50px;
+}
+
+.gardenImage{
+
+width: 175px !important;
+ height: 185px !important;
+     float:left;
+      border-radius:12%;
+        box-shadow:0px 5px 10px 0px grey;
+position: relative;
+border: 5px white solid;
+border-bottom: 40px white solid;
+
+
+}
+
+.chatImage{
+
+width: 60px !important;
+ height: 50px !important;
+     float:left;
+      border-radius:50%;
+        box-shadow:0px 1px 20px 0px grey;
+position: relative;left: -80px;top: -2px;
+
+
+
+
+}
+
+
+
+
+
+.gardenName{
+position:relative;top:5px;left:2px;
+font-size: 12.5pt;
+text-align: left;
+border-radius: 10%;
+font-weight:bolder;
+color: whitesmoke;
+text-shadow: 1.5px 0px 10px black;
+}
+
+
+.gardenElementMale{
+
+  background: #539dcc;
+width: 175px;
+height: 300px;
+position: relative;
+border-radius:12%;
+top: 10px;
+display:inline-block;
+margin-right: 30px;
+margin-left: 15px;
+margin-bottom:25px;
+
+}
+
+.gardenElementMale:hover{
+
+  background: #70A5C6;
+        box-shadow:0px 5px 10px 0px grey;
+  cursor: pointer;
+}
+
+.gardenElementFemale{
+
+  background: #ffbef7;
+width: 175px;
+height: 300px;
+position: relative;
+border-radius:12%;
+top: 10px;
+ display:inline-block;
+margin-right: 30px;
+margin-left: 15px;
+margin-bottom:25px;
+
+
+
+}
+.gardenElementFemale:hover{
+
+  background: #ffceeb;
+        box-shadow:0px 5px 10px 0px grey;
+
+  cursor: pointer;
+}
+
+
+.gardenTable{
+width:100%;
+height: auto;
+position: relative;
+padding: 0px;
+left:0%;
+}
+
+.vlindr-nav{
+
+position:relative;
+left: -3px;
+float:left;
+width:35px;
+height:30px;
+z-index:1;
+background-image: url('/images/icons/vlindrt.png');
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+}
+.vlindr-nav:hover{
+
+
+background-image: url('/images/icons/vlindrt-hover.png');
+
+}
+
+
+
+
+
+.notify-nav{
+
+position:relative;
+
+float:left;
+width:35px;
+height:30px;
+z-index:1;
+background-image: url('/images/icons/email-2inv.png');
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+}
+
+
+.matches-nav{
+
+position:relative;
+left: 3px;
+float:left;
+width:30px;
+height:20px;
+z-index:1;
+background-image: url('/images/icons/heartvlindr-inv.png');
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+}
+
+.send-vlindr{
+
+position:relative;
+top:147px;
+left:5px;
+width:50px;
+height:40px;
+z-index:1;
+background-image: url('/images/icons/vlindrt.png');
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+}
+
+.send-vlindr:hover{
+
+position:relative;
+
+
+width:50px;
+height:40px;
+z-index:1;
+background-image: url('/images/icons/vlindrt-hover.png');
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+}
+
+.send-heart{
+
+position:relative;
+top:110px;
+left:73px;
+width:40px;
+height:30px;
+z-index:1;
+background-image: url('/images/icons/heartvlindr.png');
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+}
+
+.send-heart:hover{
+
+position:relative;
+
+z-index:1;
+background-image: url('/images/icons/heartvlindr-inv.png');
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+}
+.heart-send{
+
+position:relative;
+top:110px;
+left:73px;
+width:40px;
+height:30px;
+z-index:1;
+background-image: url('/images/icons/heartvlindr-inv.png');
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+}
+
+.heart-send:hover{
+
+position:relative;
+
+z-index:1;
+background-image: url('/images/icons/heartvlindr-inv.png');
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+}
+
+
+.add-friend{
+
+position:relative;
+top:66.5px;
+left:125px;
+width:63px;
+height:38px;
+z-index:1;
+background-image: url('/images/icons/friendplus.png');
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+}
+
+.add-friend:hover{
+
+position:relative;
+
+z-index:1;
+background-image: url('/images/icons/add-friend.png');
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+}
+
+
+.accept-friend{
+
+  position:relative;
+width:63px;
+height:38px;
+z-index:1;
+background-image: url('/images/icons/+1friend.png');
+float: right;
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+top: -40px;
+left: 17.6px;
+}
+
+.accept-friend:hover{
+
+position:relative;
+
+z-index:1;
+background-image: url('/images/icons/+friend.png');
+
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+}
+
+.chat{
+
+position:relative;
+top:76.5px;
+left:110.6px;
+width:53px;
+height:38px;
+z-index:1;
+background-image: url('/images/icons/chat.png');
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+}
+.chat:hover{
+
+  position:relative;
+
+z-index:1;
+background-image: url('/images/icons/chat-inv.png');
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+}
+
+
+.pending{
+  position:relative;
+width:63px;
+height:38px;
+z-index:1;
+background-image: url('/images/icons/sender.png');
+
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+top: 64.5px;
+left: 116.6px;
+
+}
+
+
+.pending:hover{
+  position:relative;
+width:63px;
+height:38px;
+z-index:1;
+background-image: url('/images/icons/send.png');
+left: 119.9px;
+
+background-repeat: no-repeat;
+background-size: contain;
+display: block;
+
+}
+
+.gardenHeader{
+
+text-shadow: 2px 2px 10px #000 ;
+color:white;
+left:0px;
+top:-18px;
+text-align:center;
+position:relative;
+font-size:25pt;
+background-color: rgba(101, 159, 232, 0.5);
+border-radius:25px;
+box-shadow: 0px 10px 10px 0px lightgrey;
+height:auto;
+padding:5px;
+padding-bottom:10px !important;
+z-index: -1;
+}
+
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 50%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 200px;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav input {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.buttn{
+
+  background-color: deepskyblue !important;
+  color: white !important;
+
+}
+
+.buttn:hover{
+
+background-color: darkred !important;
+
+}
+
+
+.dropdown-menu {
+border-radius: 20px !important;
+width: 280px !important;
+
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: royalblue !important;
+  border-radius: 10px !important;
+}
+
+.RQST-accept{
+
+
+}
+.RQST-accept:hover{
+  color: whitesmoke;
+  background-color: lightcoral !important;
+  border-radius: 20px !important;
+
+}
